@@ -16,9 +16,16 @@ function App(props) {
           component={({ location }) => {
             return (
               <div
-                style={{ padding: "50px", width: "100%", textAlign: "center" }}
+                style={{
+                  color: "white",
+                  backgroundColor: "black",
+                  padding: "50px",
+                  width: "100%",
+                  height: "100%",
+                  textAlign: "center"
+                }}
               >
-                The page <code>{location.pathname}</code> could not be found.
+                <h1 className="title">Ei löytyny</h1>
               </div>
             );
           }}
