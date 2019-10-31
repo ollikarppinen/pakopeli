@@ -6,9 +6,9 @@ function BarPage(props) {
     <VideoSection
       color="black"
       size="medium"
-      title="32"
-      subtitle="wubwub"
-      embedUrl="https://www.youtube.com/embed/z9Ul9ccDOqE"
+      title=""
+      subtitle=""
+      embedUrl="https://www.youtube.com/embed/Fd2xueWE27A?rel=0&modestbranding=1&autohide=1&showinfo=0&controls=0&autoplay=1&enablejsapi=1"
     />
   );
 }

@@ -41,19 +41,19 @@
             },
             {
               "key": "title",
-              "value": "Oletko oikeassa paikassa?",
+              "value": "Oletko oikeassa osoitteessa?",
               "isString": true,
               "type": "StringLiteral"
             },
             {
               "key": "subtitle",
-              "value": "Kato ylös",
+              "value": "",
               "isString": true,
               "type": "StringLiteral"
             },
             {
               "key": "embedUrl",
-              "value": "https://www.youtube.com/embed/v4YNI-1bw6I",
+              "value": "",
               "isString": true,
               "type": "StringLiteral"
             }
@@ -126,24 +126,15 @@
         {
           "type": "element",
           "tagName": "section",
-          "classNames": [
-            "hero",
-            "section",
-            "is-block",
-            "is-relative"
-          ],
+          "classNames": ["hero", "section", "is-block", "is-relative"],
           "classNameExpressions": [
             {
               "js": "color",
-              "classNames": [
-                "is-{color}"
-              ]
+              "classNames": ["is-{color}"]
             },
             {
               "js": "size",
-              "classNames": [
-                "is-{size}"
-              ]
+              "classNames": ["is-{size}"]
             }
           ],
           "children": [
@@ -248,15 +239,11 @@
                       "classNameExpressions": [
                         {
                           "js": "props.size",
-                          "classNames": [
-                            "is-{props.size}"
-                          ]
+                          "classNames": ["is-{props.size}"]
                         },
                         {
                           "js": "props.size === 1",
-                          "classNames": [
-                            "is-size-2-mobile"
-                          ]
+                          "classNames": ["is-size-2-mobile"]
                         }
                       ],
                       "id": 5428871,
@@ -277,9 +264,7 @@
                     {
                       "type": "element",
                       "tagName": "p",
-                      "classNames": [
-                        "subtitle"
-                      ],
+                      "classNames": ["subtitle"],
                       "children": [
                         {
                           "type": "text",
@@ -293,9 +278,7 @@
                       "classNameExpressions": [
                         {
                           "js": "props.size > 4",
-                          "classNames": [
-                            "is-6"
-                          ]
+                          "classNames": ["is-6"]
                         }
                       ],
                       "isVisible": true,
@@ -313,9 +296,7 @@
               "classNameExpressions": [
                 {
                   "js": "props.centered",
-                  "classNames": [
-                    "is-centered"
-                  ]
+                  "classNames": ["is-centered"]
                 }
               ],
               "style": "margin-bottom: 3rem;\n\n// Remove margin if nothing after header\n&:last-child{\n  margin-bottom: 0;\n}\n\n// Added if props.centered is true\n&.is-centered {\n  text-align: center;\n}\n\n.subtitle {\n\tmax-width: 700px;\n  // So we can have max-width but still\n  // have alignment controlled by text-align.\n  display: inline-block;\n}",
@@ -388,9 +369,7 @@
             {
               "type": "element",
               "tagName": "div",
-              "classNames": [
-                "container"
-              ],
+              "classNames": ["container"],
               "id": 8975060,
               "children": [
                 {
@@ -471,12 +450,7 @@
           ]
         }
       ],
-      "tags": [
-        "Media",
-        "Hero",
-        "Content",
-        "Popular"
-      ],
+      "tags": ["Media", "Hero", "Content", "Popular"],
       "id": 3972820,
       "isVisible": true,
       "nameLibrary": "",
